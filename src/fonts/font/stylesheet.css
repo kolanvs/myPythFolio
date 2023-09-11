@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Pribor';
+    src: url('Pribor.eot');
+    src: local('Pribor'),
+        url('Pribor.eot?#iefix') format('embedded-opentype'),
+        url('Pribor.woff2') format('woff2'),
+        url('Pribor.woff') format('woff'),
+        url('Pribor.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pribor';
+    src: url('Pribor-Bold.eot');
+    src: local('Pribor Bold'), local('Pribor-Bold'),
+        url('Pribor-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Pribor-Bold.woff2') format('woff2'),
+        url('Pribor-Bold.woff') format('woff'),
+        url('Pribor-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pribor';
+    src: url('Pribor-Light.eot');
+    src: local('Pribor Light'), local('Pribor-Light'),
+        url('Pribor-Light.eot?#iefix') format('embedded-opentype'),
+        url('Pribor-Light.woff2') format('woff2'),
+        url('Pribor-Light.woff') format('woff'),
+        url('Pribor-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+

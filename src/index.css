@@ -12,6 +12,14 @@
     url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
   font-display: swap;
 }
+@font-face {
+  font-family: "Pribor";
+  font-style: normal;
+  font-weight: bold;
+  src: local("Pribor"),
+  url("./assets/fonts/Pribor.woff") format("woff");
+  font-display: swap;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

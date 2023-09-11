@@ -127,6 +127,30 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+
+      {socialMediaLinks.vk ? (
+          <a
+              href={socialMediaLinks.vk}
+              className="icon-button vk"
+              target="_blank"
+              rel="noopener noreferrer"
+          >
+            <i className="fab fa-vk"></i>
+            <span></span>
+          </a>
+      ) : null}
+
+      {socialMediaLinks.telegram ? (
+          <a
+              href={socialMediaLinks.telegram}
+              className="icon-button telegram"
+              target="_blank"
+              rel="noopener noreferrer"
+          >
+            <i className="fab fa-telegram"></i>
+            <span></span>
+          </a>
+      ) : null}
     </div>
   );
 }
