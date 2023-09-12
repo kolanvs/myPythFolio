@@ -42,7 +42,7 @@ export default function Greeting() {
                 <Button text="Связаться со мной" href="#contact" />
                 {greeting.resumeLink && (
                   <Button
-                    text="Просмотреть мое резюме"
+                    text="Резюме"
                     newTab={true}
                     href={greeting.resumeLink}
                   />
